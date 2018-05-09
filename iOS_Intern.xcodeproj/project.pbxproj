@@ -17,7 +17,7 @@
 		E3956D9C2098366D00C6DCFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3956D9A2098366D00C6DCFE /* LaunchScreen.storyboard */; };
 		E3956DA72098366E00C6DCFE /* iOS_InternTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3956DA62098366E00C6DCFE /* iOS_InternTests.swift */; };
 		E3956DB22098366E00C6DCFE /* iOS_InternUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3956DB12098366E00C6DCFE /* iOS_InternUITests.swift */; };
-		E3F1260D209897AF001B5CDA /* TwitterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F1260C209897AF001B5CDA /* TwitterAPI.swift */; };
+		E3C150F320A2A0EF00864998 /* TWCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C150F220A2A0EF00864998 /* TWCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +61,7 @@
 		E3956DB12098366E00C6DCFE /* iOS_InternUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_InternUITests.swift; sourceTree = "<group>"; };
 		E3956DB32098366E00C6DCFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3B1235920983C630022F6CD /* iOS_Intern-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_Intern-Bridging-Header.h"; sourceTree = "<group>"; };
-		E3F1260C209897AF001B5CDA /* TwitterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterAPI.swift; sourceTree = "<group>"; };
+		E3C150F220A2A0EF00864998 /* TWCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TWCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,12 +142,12 @@
 			children = (
 				E3956D912098366D00C6DCFE /* AppDelegate.swift */,
 				E3956D932098366D00C6DCFE /* ViewController.swift */,
+				E3C150F220A2A0EF00864998 /* TWCollectionViewCell.swift */,
 				E3956D952098366D00C6DCFE /* Main.storyboard */,
 				E3956D982098366D00C6DCFE /* Assets.xcassets */,
 				E3956D9A2098366D00C6DCFE /* LaunchScreen.storyboard */,
 				E3956D9D2098366D00C6DCFE /* Info.plist */,
 				E3B1235920983C630022F6CD /* iOS_Intern-Bridging-Header.h */,
-				E3F1260C209897AF001B5CDA /* TwitterAPI.swift */,
 			);
 			path = iOS_Intern;
 			sourceTree = "<group>";
@@ -405,7 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3956D942098366D00C6DCFE /* ViewController.swift in Sources */,
-				E3F1260D209897AF001B5CDA /* TwitterAPI.swift in Sources */,
+				E3C150F320A2A0EF00864998 /* TWCollectionViewCell.swift in Sources */,
 				E3956D922098366D00C6DCFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
