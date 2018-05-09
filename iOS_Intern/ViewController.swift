@@ -91,6 +91,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UIScrollView
                 //カウントが初期値の場合、100に設定する
                 if self.count == 0{
                     self.count = 100
+                }else{
+                    self.count = self.twtext.count
                 }
                 //再読み込み
                 self.Collection.reloadData()
@@ -104,11 +106,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UIScrollView
     
     //スクロールでの読み込みメソッド
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        if Collection.contentOffset.y + Collection.frame.size.height > Collection.contentSize.height && Collection.isDragging && self.flag < 10{
+        if Collection.contentOffset.y + Collection.frame.size.height > Collection.contentSize.height && Collection.isDragging && self.flag < 10 && self.count%100 == 0{
             //誤作動しないように時間を置く
             sleep(1)
+            print(self.twname)
             self.flag = self.flag + 1
-            self.count += 100
             self.GetTweet()
             //誤作動しないように時間を置く
             sleep(1)
