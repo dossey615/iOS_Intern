@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		090627F14F0945802EE167F7EBA097E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		548C6A88309A34AAF3325FE4B65F5D3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		6124059CB41CAAE437FE896673A5AA4C /* Pods-iOS_Intern-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 361C81642D9010FF86900260153C2CAD /* Pods-iOS_Intern-dummy.m */; };
 		61877EF7D4049271A4A029498E89908E /* Pods-iOS_InternTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8247A2C6E8C213F138BA9192C24C3E8 /* Pods-iOS_InternTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7676A7DE79F64736126F69524697FF0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		8488DE3E19319710C73B4681C25D3E54 /* Pods-iOS_Intern-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2C5565DBA6239071B7A81B17790EBFF /* Pods-iOS_Intern-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3570D97E6BD37CEB69C9D86E545D80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		AEC98C8F4AAA4939BCE2F1CA56DA237B /* Pods-iOS_InternUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EBFF2535A656B346B79AEC3DC7692E /* Pods-iOS_InternUITests-dummy.m */; };
 		D098B111C0DF32C9EACB02A494191281 /* Pods-iOS_InternTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9BA96D219B427FAF417FB6426AC389 /* Pods-iOS_InternTests-dummy.m */; };
+		F4B7849305B0262DB23CBCC51575CFD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F9DE45523FC78C7E3CC40A15872C2BD1 /* Pods-iOS_InternUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC87FFB05109DAFF598C84D235730628 /* Pods-iOS_InternUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBD9AFC15CDB4F17CC82252CA179AA90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +45,9 @@
 		3FDDC64715A2C0E47C3A4B7F2F514019 /* Pods-iOS_Intern.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS_Intern.release.xcconfig"; sourceTree = "<group>"; };
 		40C57BE4168DAA8068F7E325B63F6EB0 /* Pods-iOS_Intern-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOS_Intern-acknowledgements.markdown"; sourceTree = "<group>"; };
 		529003EE3CA008671AA3A519B029769A /* Pods-iOS_InternUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS_InternUITests-resources.sh"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5D28EDDBF70735B2CD8DD5E551389089 /* Pods_iOS_InternUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOS_InternUITests.framework; path = "Pods-iOS_InternUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607632321347DD389EE407CB49D30572 /* TwitterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwitterKit.framework; path = iOS/TwitterKit.framework; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6A0C92C1C25AB69071DCB3B0FB8389A2 /* Pods-iOS_InternTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS_InternTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6DFB669B1E83F97E68B0CAA50DE632F0 /* Pods-iOS_Intern.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS_Intern.modulemap"; sourceTree = "<group>"; };
 		6E9351B73D06D3EAD286F77A79F63C07 /* Pods-iOS_InternTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOS_InternTests.modulemap"; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7676A7DE79F64736126F69524697FF0A /* Foundation.framework in Frameworks */,
+				F4B7849305B0262DB23CBCC51575CFD8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				548C6A88309A34AAF3325FE4B65F5D3C /* Foundation.framework in Frameworks */,
+				9C3570D97E6BD37CEB69C9D86E545D80 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090627F14F0945802EE167F7EBA097E4 /* Foundation.framework in Frameworks */,
+				FBD9AFC15CDB4F17CC82252CA179AA90 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +140,14 @@
 			);
 			name = TwitterKit;
 			path = TwitterKit;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		6AD20DAD5E30DA011D51037C50AF6B9D /* Pods */ = {
@@ -202,7 +210,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -223,14 +231,6 @@
 			);
 			name = "Pods-iOS_InternTests";
 			path = "Target Support Files/Pods-iOS_InternTests";
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		E8B1CA86B5CFDCB9A3AB755835B34CC5 /* Pods-iOS_Intern */ = {
@@ -431,7 +431,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-iOS_InternUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iOS_InternUITests/Pods-iOS_InternUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -466,7 +470,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-iOS_Intern/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iOS_Intern/Pods-iOS_Intern.modulemap";
 				OTHER_LDFLAGS = "";
@@ -500,7 +508,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-iOS_InternUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iOS_InternUITests/Pods-iOS_InternUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -534,7 +546,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-iOS_Intern/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iOS_Intern/Pods-iOS_Intern.modulemap";
 				OTHER_LDFLAGS = "";
@@ -690,7 +706,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-iOS_InternTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iOS_InternTests/Pods-iOS_InternTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -725,7 +745,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-iOS_InternTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-iOS_InternTests/Pods-iOS_InternTests.modulemap";
 				OTHER_LDFLAGS = "";
